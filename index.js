@@ -8,3 +8,13 @@ function printString(myString) {
     return true;
   }
 }
+
+function reverseString(string) {
+  let myReversedString;
+  if (string.length > 1) {
+    string.pop().myReversedString.push()
+    
+  } else {
+    return true;
+  }
+}
