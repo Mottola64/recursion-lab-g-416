@@ -30,5 +30,6 @@ function isPalindrome(myString) {
 }
 
 function addUpTo(array, index) {
-  let sum = 
+  let sum = array[index]
+  
 }
