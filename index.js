@@ -32,3 +32,4 @@ function isPalindrome(myString) {
 function addUpTo(myArray, index) {
   return index ? myArray[index] + addUpTo(myArray, --index) : myArray[index];
 }
+
