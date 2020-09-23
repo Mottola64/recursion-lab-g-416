@@ -28,3 +28,7 @@ function isPalindrome(myString) {
     return false;
   }
 }
+
+function addUpTo(array, index) {
+  let sum = 
+}
