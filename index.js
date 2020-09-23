@@ -35,7 +35,7 @@ function addUpTo(myArray, index) {
 
 function maxOf(numArray) 
 {
-    var nums = numArray.slice();
+    var nums = numArray
 	if (nums.length == 1) { return nums[0]; }
     if (nums[0] < nums[1]) { nums.splice(0,1); }
     else { nums.splice(1,1); }
