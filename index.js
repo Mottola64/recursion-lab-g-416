@@ -13,7 +13,7 @@ function reverseString(string) {
   let myReversedString;
   if (string.length > 1) {
     string.pop().myReversedString.push()
-    
+    reverseString(string)
   } else {
     return true;
   }
