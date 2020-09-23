@@ -41,3 +41,13 @@ function maxOf(numArray)
     else { nums.splice(1,1); }
     return maxOf(nums);
 }
+
+function includesNumber(myArray, myNumber) {
+  if (!myArray.length) {
+    return false;
+  } else if (myArray[0] === myNumber) {
+    return true;
+  } else {
+    return includesNumber(myArray.slice(1), myNumber);
+  }
+}
